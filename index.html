@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Portfolio</title>
+		<link rel="icon" type="image/png" href="img/andela_icon.png" />
+		<meta charset="utf-8">
+		<meta name="description" content="A portfolio of my projects on github"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+			
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	</head>
+
+	<body>
+
+		<section class="hero">
+			<header>
+				<div class="wrapper">
+					<a href="#"><img src="img/logo.png" class="logo" alt="" title=""/></a>
+					<a href="#" class="hamburger"></a>
+					<nav>
+						<ul>
+							<li><a href="index.html" class="selected">Home</a></li>
+		          <li><a href="#">About</a></li>
+		          <li><a href="#">Contact</a></li>
+						</ul>
+						<input type="text" class="login_btn" id="filter_or_search" placeholder="Search Github Repo">
+						<!-- <label for="filter_or_search">Sa</label> -->
+					</nav>
+				</div>
+			</header><!--  end header section  -->
+
+			<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height: 200px;">
+			    <!-- Slides Container -->
+			    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height: 200px;">
+			        <div><img u="image" src="img/property_1.jpg" /></div>
+			        <div><img u="image" src="img/splinter.jpg" /></div>
+			        <div><img u="image" src="img/property_2.jpg" /></div>
+			        <div><img u="image" src="img/property_3.jpg" /></div>
+			    </div>
+			</div>
+		</section><!--  end hero section  -->
+
+
+		<h1 id="heading">PROJECTS</h1>
+		<section class="listings">
+			<div class="wrapper" id="content">		
+			</div>
+			<div class="more_listing">
+				<button class="more_listing_btn ">View Profile on Github</button>
+			</div>
+		</section>	<!--  end listing section  -->
+
+		<footer>
+			<div>
+				<ul>
+					<li>
+						<a href="http://facebook.com/ladna.meke"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
+						<a href="tel:+2347068831197"><img src="img/phone.png" alt="Phone Logo"></a>
+						<a href="mailto:ladna.meke@andela.co"><img src="img/mail.png" alt="Mail Logo"></a>
+						<a href="http://twitter.com/ladna33"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="copyrights wrapper">
+				Copyright © 2015 <a href="http://github.com/andela-lmeke" target="_blank" class="ph_link" title="Meke Ladna">Meke Ladna</a>. All Rights Reserved.
+			</div>
+		</footer><!--  end footer  -->
+		
+		<script src="js/vendor/jquery-2.1.1.js"></script>
+		<script type="text/javascript" src="js/portfolio.js"></script>
+	  <script src="js/vendor/jssor.js"></script>
+	  <script src="js/vendor/jssor.slider.js"></script>
+	  <script src="js/slides.js"></script>
+    <script src="js/app.js"></script>
+	</body>
+</html>
